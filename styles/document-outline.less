@@ -87,6 +87,8 @@ atom-text-editor.editor {
     }
 	
 	.statusIcon {
+	  display:inline-block;
+	  margin-top: -0.6em;
 	  margin-left: 5px;
 	  font-size: 1.6em;
 	}
@@ -94,6 +96,12 @@ atom-text-editor.editor {
 	.statusIcon.todo:before {
 	  content: "\2610";
 	  color: Red;
+	}
+	
+	.statusIcon.next:before {
+	  content: "\293D";
+	  color: yellow;
+	  font-size: 1.6em;
 	}
 	
 	.statusIcon.postponed:before {
