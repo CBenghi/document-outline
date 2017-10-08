@@ -91,11 +91,27 @@ atom-text-editor.editor {
 	  margin-top: -0.6em;
 	  margin-left: 5px;
 	  font-size: 1.6em;
+	  font-weight: normal;
 	}
 	
 	.statusIcon.todo:before {
 	  content: "\2610";
 	  color: Red;
+	}
+	
+	.statusIcon.visual:before {
+	  // content: "\1F4F7"; // this is the camera icon
+	  content: "\2EAB"; // radical for the eye that looks like a squared item; migth be appropriate
+	  color: Yellow;
+	  // U+2317	VIEWDATA SQUARE
+	  // U+25A3	WHITE SQUARE CONTAINING BLACK SMALL SQUARE
+	  // U+25A6	SQUARE WITH ORTHOGONAL CROSSHATCH FILL // tried vote: 6
+	  // U+25F3	WHITE SQUARE WITH UPPER RIGHT QUADRANT // tried vote: 6
+	  // U+26CB	WHITE DIAMOND IN SQUARE
+	  // U+274F	LOWER RIGHT DROP-SHADOWED WHITE SQUARE // tried vote: 4
+	  // U+2B1A	DOTTED SQUARE // tried vote: 5
+	  // U+2BB9	UP ARROWHEAD IN A RECTANGLE BOX // tried vote: 7
+	  // U+2EAB	CJK RADICAL EYE
 	}
 	
 	.statusIcon.next:before {
