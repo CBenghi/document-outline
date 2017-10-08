@@ -58,10 +58,6 @@ atom-text-editor.editor {
 
   heading-node {
   }
-
-  heading-node.list-selectable-item.yellow {
-	  color : #ff0000; 
-  }
   
   heading-node.list-nested-item {
     margin-top: 2px;
@@ -89,12 +85,33 @@ atom-text-editor.editor {
       background-color: @background-color-info;
       transition: background 0.5s linear;
     }
+	
+	.statusIcon {
+	  margin-left: 5px;
+	  font-size: 1.6em;
+	}
+	
+	.statusIcon.todo:before {
+	  content: "\2610";
+	  color: Red;
+	}
+	
+	.statusIcon.postponed:before {
+	  // content: "\23F1";
+	  content: "\2612";
+	  color: DarkOrange;
+	}
+	
+	.statusIcon.done:before {
+	  content: "\2611";
+	  color: DarkGreen;
+	}
 
     // used for constant indentation in tree hierarchy when compressing/expanding (@CBenghi)
-	  .icon {
-		  width: 16px;
-	  }
-    
+	.icon {
+	  width: 16px;
+	}
+	    
     .icon.icon-chevron-down:before {
       margin-right: 0em;
     }
