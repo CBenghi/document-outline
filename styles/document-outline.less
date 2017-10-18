@@ -73,8 +73,9 @@ atom-text-editor.editor {
       border: 1px solid @base-border-color;
       border-radius: @component-border-radius;
       padding: 0 3px;
-
     }
+	
+	
 
     span.tree-item-text {
       line-height: normal;
@@ -113,6 +114,10 @@ atom-text-editor.editor {
       // border-bottom: 1px solid fade(@text-color, 0%);
       // transition: border 500ms ease;
     }
+	
+	span.tree-item-text.currentTree { 
+		color: DarkOrange;
+	}
 
     span.tree-item-text:hover {
       // font-weight: bold;
