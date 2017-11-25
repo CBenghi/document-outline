@@ -1,7 +1,7 @@
 {
   "name": "document-outline",
   "main": "./lib/document-outline",
-  "version": "1.6.17",
+  "version": "1.7.0",
   "description": "Show a hierarchical outline of a text document",
   "keywords": [
     "outline",
@@ -16,7 +16,7 @@
   "repository": "https://github.com/mangecoeur/document-outline",
   "license": "GPL-3.0",
   "engines": {
-    "atom": ">=1.17.0 <2.0.0"
+    "atom": ">=1.22.0 <2.0.0"
   },
   "dependencies": {
     "commonmark": "^0.28.0",
